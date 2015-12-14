@@ -12,7 +12,7 @@ import (
 type Graph map[string]map[string]int
 
 // Graph.Add adds the edge described by line to the graph.
-// Example line: "AlphaCentauri to Snowdin = 66"
+// Example line: "Alice would lose 2 happiness units by sitting next to Bob."
 func (g Graph) Add(line string) {
     var (
         name1, gainlose, happiness, name2 string
